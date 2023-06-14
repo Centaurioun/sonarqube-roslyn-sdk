@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <ProjectGuid>{AAE84E64-5977-44D7-8959-80F59FA2B0C1}</ProjectGuid>
@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="NuGet.CommandLine" Version="4.7.0" GeneratePathProperty="true" />
+    <PackageReference Include="NuGet.CommandLine" Version="6.0.5" GeneratePathProperty="true" />
     <Reference Include="$(PkgNuGet_CommandLine)\tools\NuGet.exe" />
   </ItemGroup>
   
